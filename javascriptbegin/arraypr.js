@@ -13,4 +13,5 @@ console.log(car);
 console.log(a.replace("maya",arrString[2]));
 console.log(a.indexOf("l"));
 
+
 }
