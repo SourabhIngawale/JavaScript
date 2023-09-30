@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>even odd number</title>
+    <script type="text/javascript">
+        function cheking(){
+            let a=document.getElementById("data").value;
+            if(a%2){
+                console.log("number is prime"+a);   
+            }
+            else{
+                console.log("number is odd")
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+<input type="number" id="data" >
+<button id="check" onclick="cheking()">check</button>    
+</body>
+</html>
