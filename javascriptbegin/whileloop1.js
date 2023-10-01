@@ -1,0 +1,10 @@
+
+
+let val = 1;
+
+while (val < 6) {
+	console.log(val);
+	
+	val++;
+}
+
