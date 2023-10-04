@@ -1,8 +1,4 @@
-/**
- * @param {number} n
- * @return {string[]}
- * @author Abel L Mbula
- */
+
 function fizzBuzz (n) {
     const answer = []
     
