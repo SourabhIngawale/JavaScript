@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .myDiv{
+            border: 4px outset red;
+            background-color: gainsboro;
+            text-align: center;
+            height: 20vh;
+            width: auto;
+        }
+        #text{
+            color:black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             }
+        .myDiv1{
+            border: 4px outset black;
+            height: 60vh;
+            width: 80vh;
+            background-color: antiquewhite;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+         }
+         #submitbt{
+
+            height: 4vh;
+            width: 12vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+         
+
+         
+        
+    </style>
+</head>
+
+<body>
+    <div class="myDiv">
+        <p id="text">JAVA SCRIPT PRACTISE QUATIONS</p>
+        <button onclick="del()" id="deletedata" type="button">delete</button>
+    </div>
+    <div class="myDiv1">
+        <input type="text" id="inputtext">
+        <button onclick="submit()" type="submit" id="submitbt">submit</button>
+
+
+    </div>
+
+    
+</body>
+
+<script>
+
+    function submit(){
+        var text = document.getElementById("inputtext").value;
+        
+        var submittext = document.getElementById("submitbt");
+
+        
+         
+}
+     
+
+
+
+
+     function del(){
+
+        var del=document.getElementById("deletedata");
+     }
+     del()
+
+</script>
+</html>
